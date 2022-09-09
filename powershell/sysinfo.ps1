@@ -1,8 +1,8 @@
-﻿function getIP(
-    (Get-NetIPAddress).ipv4address | select-string "192"
-)
-write-host(getip)
+﻿$to = "elaprocina@gmail.com"
+$from = "elaprocina@gmail.com"
+$subject = "IT3038c Windows SysInfo"
+$body = "this is a test"
+$smtp = "smtp.gmail.com"
+$port = "587"
 
-$IP = getip
-write-host("This machine's IP is $IP")
-Write-host("This machine's IP is {0}" -f $IP)
+Send-MailMessage -to $to -from $from -subject $subject -body $body -smtpserver $smtp -port $port -useSSL -credential (get-credential)
