@@ -33,11 +33,12 @@ $USER = getLocalUser
 $PC = getPCName
 $VERSION = getVersion
 $DATE = getDate
-$to = "elaprocina@gmail.com"
+$to = "leonardf@ucmail.uc.edu"
+$Cc = "elaprocina@gmail.com"
 $from = "elaprocina@gmail.com"
 $subject = "IT3038c Windows SysInfo"
 $body = "This machine's IP is $IP. User is $USER. Hostname is $PC. Powershell Version $VERSION. Today's date is $DATE."
 $smtp = "smtp.gmail.com"
 $port = "587"
 
-Send-MailMessage -to $to -from $from -subject $subject -body $body -smtpserver $smtp -port $port -useSSL -credential (get-credential)
+Send-MailMessage -to $to -Cc $Cc -from $from -subject $subject -body $body -smtpserver $smtp -port $port -useSSL -credential (get-credential)
