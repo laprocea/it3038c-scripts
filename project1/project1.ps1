@@ -1,4 +1,4 @@
-﻿$Device = '192.168.130.200'
+﻿$Device = '192.168.165.121'
 
     while($True) {
         if(Test-Connection -ComputerName $Device -Quiet -Count 1) {
