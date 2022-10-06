@@ -1,6 +1,6 @@
 [Laprocea-Project 1] - Readme
 
-*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\
 
 ^
 I wanted to be able to conduct a perpetual ping test on my local NAS.
@@ -28,11 +28,10 @@ exercise, a local IP would be used [failure] against 8.8.8.8 [success].
 By using -quiet, I learned that I'm only in search of successful or failed
 pings.
 
-*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\
 
 Citation:
 
 Smbridges. (2019, April 4). Test-connection if fail retry, else continue.
 	The Spiceworks Community. Retrieved October 5, 2022, from 
-	https://community/spiceworks.com/topic/2202644-test-connection-
-	if-fail-retry-else-continue  
+	https://community/spiceworks.com/topic/2202644-test-connection-if-fail-retry-else-continue  
