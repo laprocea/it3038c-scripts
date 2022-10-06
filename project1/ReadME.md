@@ -34,4 +34,10 @@ Citation:
 
 Smbridges. (2019, April 4). Test-connection if fail retry, else continue.
 	The Spiceworks Community. Retrieved October 5, 2022, from 
-	https://community/spiceworks.com/topic/2202644-test-connection-if-fail-retry-else-continue  
+	https://community/spiceworks.com/topic/2202644-test-connection-if-fail-retry-else-continue 
+	
+	
+\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\ 
+
+*** Please note - in order to successfully test (with email correspondence), proper email addresses
+	must be associated with appropriate security credentials ***
